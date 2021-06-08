@@ -1,0 +1,12 @@
+.Body {
+  width: calc(100vw - 350px);
+  margin-left:350px ;
+}
+.imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen img {
+  width: 72vw;
+}

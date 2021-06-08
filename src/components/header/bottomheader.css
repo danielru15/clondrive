@@ -1,0 +1,36 @@
+.bottomheader {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100vw - 350px);
+  padding:20px;
+  height: 60px;
+  background-color: white;
+  border-bottom: 1.5px solid rgb(188, 188, 188);
+
+}
+.botones {
+  display: flex;
+}
+.icono {
+  width: 25px !important;
+    height: 25px !important;
+    color: rgb(116, 116, 116);
+    margin:0 7px;
+}
+.boo {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 115px;
+  margin: 0;
+  margin-left: -20px;
+  height: 35px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(2, 2, 2);
+  padding: 10px;
+  font-size: 1.2em;
+}
+.boo:hover {
+  background-color:rgb(234, 233, 233);
+  border-radius: .50rem;
+}
